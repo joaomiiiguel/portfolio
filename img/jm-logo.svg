@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="52px" height="48px" viewBox="0 0 52 48" enable-background="new 0 0 52 48" xml:space="preserve">
+<g>
+	<title>Shape</title>
+	<desc>Created with Sketch.</desc>
+	<polyline fill="#18145E" points="24.093,29.928 33.377,36.04 24.087,42.152 	"/>
+	<polyline fill="#524CB7" points="24.423,16.031 14.5,8.143 14.5,28.286 33.5,35.983 33.5,8.5 	"/>
+	<g>
+		<polygon fill="#4036A8" points="24.5,15.83 24.5,32.157 33.5,35.983 33.5,8.204 		"/>
+		<polygon fill="#4036A8" points="34.346,8.189 34.346,8.204 34.363,8.189 		"/>
+	</g>
+	<path fill="#4036A8" d="M45.387,3.196c1.231,0,2.113,0.625,2.113,1.795v38.973c0,1.17,0.385,1.537-0.847,1.537H5.651
+		C4.42,45.5,3.5,45.133,3.5,43.963V4.991C3.5,3.82,4.42,3.5,5.651,3.5H45.5 M46.653,0.5H5.651C3.369,0.5,0.5,2.822,0.5,4.991v38.973
+		c0,2.169,2.869,4.537,5.151,4.537h41.002c2.282,0,3.847-2.368,3.847-4.537V4.991c0-2.169-1.879-4.491-4.16-4.491H46.653z"/>
+</g>
+</svg>

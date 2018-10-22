@@ -11,10 +11,11 @@ html, body{
 }
 h1{
     font-weight:bold;
-    font-size: 30px;
+    font-size: 40px;
 }
 p{
     font-weight:normal;
+    font-size: 20px;
 }
 .navbar{
     background-color: #fff;
@@ -27,9 +28,8 @@ p{
 }
 
 .navbar-logo{
-    width: 3rem;
-    height: 3rem;
-    background-color: #4233AD;
+    width: 4rem;
+    height: 4rem;
     float: left;
     border-radius: 5px;
 }
@@ -55,20 +55,20 @@ button:hover {
 }
 .Topo{
     max-height: 100%;
-    padding: 0 3rem;
+    padding: 0 5rem;
 }
 .inicio{
     padding-top: 3rem;
 }
 .avatar{
-    width: 40%;
-    max-width: 200px;
+    width: 60%;
+    max-width: 300px;
+    padding: 5rem 0;
 }
 .hero{
     width: 100%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    padding-top: 3rem;
 }
 .hero-img{
     width: 100%;
@@ -99,8 +99,8 @@ button:hover {
 }
 .column{
     float: left;
-    width: 50%;
     height: 100%;
+    width: 50%;
     padding: 3rem;
     color: #000;
 }
@@ -111,9 +111,15 @@ button:hover {
 }
 .portfolio{
     padding: 3rem;
-    height: 42rem;
+    height: 60rem;
     margin-top: 12rem;
 }
+.portfolio:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .projects-grid{
     width: 60%;
     margin: 0 auto;
@@ -123,7 +129,7 @@ button:hover {
     width: 32%;
     float: left;
     padding: 0;
-    position: relative;
+    position:relative;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
     
@@ -173,6 +179,8 @@ button:hover {
     border-radius: 15px;
     cursor: pointer;
     padding: 10px 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 .button-portfolio:hover{
     background-color: #fff;
@@ -187,12 +195,64 @@ button:hover {
     padding: 2rem 5rem;
     height: 20rem;
 }
-@media screen and (max-width:800px){
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    font-size: 60px;
+    width: 50px;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-left: 1rem;
+    border: 1px solid white;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    color: #4233AD;
+    background: white;
+}
+
+
+
+
+
+
+@media screen and (max-width:1024px){
     .navbar {
-        padding: 2rem 15rem;
+        padding: 2rem 5rem;
     }
+    .hero{
+        width: 100%;
+}
     .bio{
-        width: 70%;
-        padding: 5rem 20rem;
+        width: 100%;
+        padding: 2rem 2rem;
     }
+    .contaner{
+        width: 80%;
+    }
+    .skills{
+        width: 80%;
+    }
+    .column{
+        float: left;
+        height: 100%;
+        width: 100%;
+        padding: 2rem;
+    }
+    .portfolio{
+        height: 100%;
+    }
+    
+    .projects-grid{
+        width: 80%;
+        padding: 0;
+    }
+    .column-grid{
+        width: 100%;
+    }
+    
 }
