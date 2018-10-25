@@ -11,7 +11,7 @@ html, body{
 }
 h1{
     font-weight:bold;
-    font-size: 40px;
+    font-size: 50px;
 }
 p{
     font-weight:normal;
@@ -111,7 +111,7 @@ button:hover {
 }
 .portfolio{
     padding: 3rem;
-    height: 60rem;
+    height: 100%;
     margin-top: 12rem;
 }
 .portfolio:after {
@@ -168,6 +168,7 @@ button:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    text-decoration: none;
 }
 .button-portfolio{
     position: absolute;
@@ -221,9 +222,20 @@ button:hover {
 
 
 @media screen and (max-width:1024px){
+    h1{
+        font-size: 40px;
+}
     .navbar {
-        padding: 2rem 5rem;
+        padding: 2rem 1rem;
     }
+    .navbar-logo{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+}
+    .Topo{
+    padding: 0 2rem;
+}
     .hero{
         width: 100%;
 }
@@ -232,10 +244,10 @@ button:hover {
         padding: 2rem 2rem;
     }
     .contaner{
-        width: 80%;
+        width: 100%;
     }
     .skills{
-        width: 80%;
+        width: 100%;
     }
     .column{
         float: left;
@@ -245,6 +257,7 @@ button:hover {
     }
     .portfolio{
         height: 100%;
+        padding: 2rem;
     }
     
     .projects-grid{
@@ -254,5 +267,8 @@ button:hover {
     .column-grid{
         width: 100%;
     }
+    .section{
+    padding: 2rem 2rem;
+}
     
 }
