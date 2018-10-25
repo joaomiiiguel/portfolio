@@ -73,6 +73,10 @@ button:hover {
 .hero-img{
     width: 100%;
 }
+.contanier-menu{
+    height: 100%;
+}
+
 .bio{
     background-color: #4233AD;
     width: 100%;
@@ -194,6 +198,11 @@ button:hover {
     color: #fff;
     margin: 0 auto;
     padding: 2rem 5rem;
+}
+.section:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 /* Style all font awesome icons */
 .fa {
