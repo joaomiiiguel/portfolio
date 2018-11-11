@@ -10,7 +10,56 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
         <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-        
+        <style>
+
+            /* The device with borders */
+            .tablet {
+              position: relative;
+              width: 924px;
+              height: 568px;
+              margin: auto;
+              border: 16px black solid;
+              border-right-width: 60px;
+              border-left-width: 60px;
+              border-radius: 36px;
+            }
+
+            /* The horizontal line on the top of the device */
+            .tablet:before {
+              content: '';
+              display: block;
+              width: 5px;
+              height: 60px;
+              position: absolute;
+              top: 50%;
+              left: -25px;
+              transform: translate(-50%, -50%);
+              background: #333;
+              border-radius: 10px;
+            }
+
+            /* The circle on the bottom of the device */
+            .tablet:after {
+              content: '';
+              display: block;
+              width: 35px;
+              height: 35px;
+              position: absolute;
+              top: 50%;
+              right: -70px;
+              transform: translate(-50%, -50%);
+              background: #333;
+              border-radius: 50%;
+            }
+
+            /* The screen (or content) of the device */
+            .tablet .content {
+              width: 814px;
+              height: 540px;
+              background: white;
+              margin: -1px;
+            }
+        </style>
     </head>
 <body>
     <!-- Barra de Menu -->
@@ -21,8 +70,10 @@
         </div>
     </div>
     <div class="contanier-menu">
-        <div>
-            <h1>Página em desenvolvimento</h1>
+        <div class="tablet">
+          <div class="content">
+            <iframe src="cardapio/menu.html" style="width:100%;border:none;height:100%" />
+          </div>
         </div>
     </div>
     <div class="section">

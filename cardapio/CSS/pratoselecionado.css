@@ -1,0 +1,104 @@
+html {
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    background-color: #201A1A;
+    font-size: 20px;
+    
+}
+body{
+    background-color: #201A1A;
+    text-align: center;
+}
+header{
+    background-color: #2D2525;
+    height: 80px;
+    width: 100%;
+    color: #906A1B;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+}
+.row{
+    margin: 0 1em;
+    height: 80px;
+}
+
+#btBack{
+    font-size:45px;
+    padding-top: 0.3em;
+    text-decoration: none; 
+    color: #906A1B;
+    float: left;
+}
+#btHome{
+    font-size:45px;
+    margin: auto;
+    text-decoration: none; 
+    color: #906A1B;
+    padding-top: 0.3em;
+    float: right;
+}
+.nomeprato{
+    text-align: center;
+    padding: 2px;
+    float: left;
+    width: 85%;
+    height: auto;
+    
+}
+
+.container{
+    padding-top: 100px;
+    background-color: #201A1A;
+    color: #906A1B;
+    padding-left: 0;
+    padding-right: 0;
+    margin: auto;
+    
+}
+
+
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+
+    margin: auto;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 2px;
+    background-color: #906A1B;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #906A1B;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+h3{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/* SOBRE NÓS */
+

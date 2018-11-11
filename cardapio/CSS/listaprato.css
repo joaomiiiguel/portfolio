@@ -1,0 +1,119 @@
+html {
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+    background-color: #201A1A;
+    
+}
+body{
+    background-color: #201A1A;
+}
+header{
+    background-color: #2D2525;
+    height: 80px;
+    width: 100%;
+    color: #906A1B;
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+    padding: 0 4%;
+}
+.row{
+    margin: auto;
+}
+.row_cell{
+    text-align: center;
+}
+#btHome{
+    font-size:40px;
+    padding-top: 0.3em;
+    text-decoration: none; 
+    color: #906A1B;
+    float: left;
+}
+.categoriaprato{
+    text-align: center;
+    padding: 0em;
+    float: left;
+    width: 50%;
+    font-weight: bold;
+    padding-left: 15%;;
+}
+
+.container{
+    padding-top: 120px;
+    background-color: #201A1A;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    
+}
+.container .polaroid {
+    width: 31%;
+    background-color: #2D2525;
+    margin-bottom: 25px;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: white;
+    float: left;
+}
+.container .polaroid img{
+    width: 100%;
+    margin: auto;
+}
+
+.container .polaroid .container {
+    padding: 8px 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-color: #2D2525;
+    
+}
+p{
+    font-size: 14px;
+}
+#myBtnContainer{
+    height: 80px;
+    width: 250px;
+    float: right;
+    padding: 20px 0;
+}
+.filterDiv {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn{
+    border: none;
+    outline: none;
+    padding: 7px 12px;
+    background-color: #906A1B;
+    cursor: pointer;
+    width: 70px;
+    float: right;
+    margin: 4px;
+    color: white;
+}
+
+
+.btn.active {
+  background-color: white;
+  color: #906A1B;
+}
+
+@media (max-width: 680px){
+    
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .container .polaroid {
+        width: 45%;
+    }
+}

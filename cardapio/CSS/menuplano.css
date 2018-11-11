@@ -1,0 +1,87 @@
+body, html {
+    width: 100%;
+    height: auto;
+
+    background-color: #2D2525;
+    margin: 0;
+    border: 0;
+    
+    
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+}
+#cardp {
+    width: 60px;
+    height: 50px;
+}
+
+ul a {
+    background-color: #2D2525;
+    color: white;
+    margin-bottom: 0.2em;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.FundoHome{
+    height: 100%;
+    float: right;
+}
+    
+@media (min-width: 700px) {
+  
+.sidenav {
+    background-color: #201A1A;
+    color: #966A1B;
+    height: 510px;
+    border: 3px solid #966A1B;
+    border-radius: 8px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    top: 2.5%;
+    left: 5%;
+    position: absolute;
+    
+    }
+}
+@media (max-width:700px){
+    .row{
+        margin: auto;
+    }
+    .sidenav {
+    background-color: #201A1A;
+    color: #966A1B;
+    height: 510px;
+    border: 3px solid #966A1B;
+    border-radius: 8px;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    top: 10%;
+    left: 20%;
+    position: absolute;
+    
+    }
+    
+    .FundoHome{
+    height: 100%;
+    float: right;
+    width: 100%;
+}
+}
+

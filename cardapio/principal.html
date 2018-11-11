@@ -1,0 +1,135 @@
+<! DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Cardápio - D'Louvre</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/listaprato.css">
+    
+    
+</head>
+<body>
+    
+    <header>
+        <div class="row">
+            <div class="row_cell">
+                <a href="menu.html">
+                        <span id="btHome" class="glyphicon glyphicon-home"></span>
+                </a>
+            </div>
+            <div class="row_cell">
+                <h1 class="categoriaprato">PRATOS</h1>
+            </div>
+            <div id="myBtnContainer">
+                <button class="btn" onclick="filterSelection('bronze')">Bronze</button>
+                <button class="btn" onclick="filterSelection('prata')">Prata</button>
+                <button class="btn active" onclick="filterSelection('all')">Ouro</button>
+                
+            </div>
+        </div>    
+    </header>
+
+    <div class="container">
+                    <div class="polaroid filterDiv">
+                        <a href="pratos/prato-demiglace.html"><img src="img/foto-demiglace.jpg" alt="Coquetel"></a>
+                        <div class="container">
+                        <p>FILET AO MOLHO DEMI-GLACE</p>
+                        </div>
+                    </div>
+                    <div class="polaroid prata filterDiv">
+                        <a href="pratos/prato-vinhouvas.html"><img src="img/foto-vinhouva.jpg" alt="Parisense" style="width:100%"></a>
+                        <div class="container">
+                        <p>FILET AO MOLHO DE VINHO E UVAS RUBI</p>
+                        </div>
+                    </div>
+                    <div class="polaroid bronze filterDiv">
+                        <a href="pratos/prato-cogumelosshitak.html"><img src="img/foto-cogumelos.jpg" alt="Cogumelos Shitak"></a>
+                        <div class="container">
+                        <p>FILET AO MOLHO DE COGUMELOS SHITAK</p>
+                        </div>
+                    </div>
+                    <div class="polaroid filterDiv">
+                        <a href="pratos/prato-demiglace.html"><img src="img/foto-demiglace.jpg" alt="Coquetel"></a>
+                        <div class="container">
+                        <p>FILET AO MOLHO DEMI-GLACE</p>
+                        </div>
+                    </div>
+                    <div class="polaroid prata filterDiv">
+                        <a href="pratos/prato-vinhouvas.html"><img src="img/foto-vinhouva.jpg" alt="Parisense" style="width:100%"></a>
+                        <div class="container">
+                        <p>FILET AO MOLHO DE VINHO E UVAS RUBI</p>
+                        </div>
+                    </div>
+                    <div class="polaroid bronze filterDiv">
+                        <a href="pratos/prato-cogumelosshitak.html"><img src="img/foto-cogumelos.jpg" alt="Cogumelos Shitak"></a>
+                        <div class="container">
+                        <p>FILET AO MOLHO DE COGUMELOS SHITAK</p>
+                        </div>
+                    </div>
+                    <div class="polaroid filterDiv">
+                        <a href="pratos/prato-demiglace.html"><img src="img/foto-demiglace.jpg" alt="Coquetel"></a>
+                        <div class="container">
+                        <p>FILET AO MOLHO DEMI-GLACE</p>
+                        </div>
+                    </div>
+                    <div class="polaroid prata filterDiv">
+                        <a href="pratos/prato-vinhouvas.html"><img src="img/foto-vinhouva.jpg" alt="Parisense" style="width:100%"></a>
+                        <div class="container">
+                        <p>FILET AO MOLHO DE VINHO E UVAS RUBI</p>
+                        </div>
+                    </div>
+                    <div class="polaroid bronze filterDiv">
+                        <a href="pratos/prato-cogumelosshitak.html"><img src="img/foto-cogumelos.jpg" alt="Cogumelos Shitak"></a>
+                        <div class="container">
+                        <p>FILET AO MOLHO DE COGUMELOS SHITAK</p>
+                        </div>
+                    </div>
+                
+    </div>
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+</body>
+</html>
