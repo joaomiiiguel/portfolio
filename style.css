@@ -11,7 +11,7 @@ html, body{
 }
 h1{
     font-weight:bold;
-    font-size: 40px;
+    font-size: 50px;
 }
 p{
     font-weight:normal;
@@ -33,6 +33,21 @@ p{
     float: left;
     border-radius: 5px;
 }
+.fas{
+    font-size:30px; 
+    text-decoration: none;
+    float: left;
+    color:#4233AD;
+    padding: 0.5rem 0.8rem;
+    border: 2px solid #4233AD;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.fas:hover {
+    background-color: #4233AD;
+    color: #fff;
+}
 button{
     background-color: #fff;
     color: #4233AD;
@@ -53,6 +68,7 @@ button:hover {
     background-color: #4233AD;
     color: #fff;
 }
+
 .Topo{
     max-height: 100%;
     padding: 0 5rem;
@@ -73,6 +89,8 @@ button:hover {
 .hero-img{
     width: 100%;
 }
+
+
 .bio{
     background-color: #4233AD;
     width: 100%;
@@ -111,7 +129,7 @@ button:hover {
 }
 .portfolio{
     padding: 3rem;
-    height: 60rem;
+    height: 100%;
     margin-top: 12rem;
 }
 .portfolio:after {
@@ -126,7 +144,7 @@ button:hover {
     padding: 3rem;
 }
 .column-grid{
-    width: 32%;
+    width: 48%;
     float: left;
     padding: 0;
     position:relative;
@@ -168,6 +186,7 @@ button:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    text-decoration: none;
 }
 .button-portfolio{
     position: absolute;
@@ -193,7 +212,6 @@ button:hover {
     color: #fff;
     margin: 0 auto;
     padding: 2rem 5rem;
-    height: 20rem;
 }
 /* Style all font awesome icons */
 .fa {
@@ -216,14 +234,100 @@ button:hover {
 }
 
 
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 60px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 700px;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4233AD;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #fff;
+    color: #4233AD;
+    border: 2px solid #4233AD;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
 
 
 
 
 @media screen and (max-width:1024px){
+    h1{
+        font-size: 40px;
+}
     .navbar {
-        padding: 2rem 5rem;
+        padding: 2rem 1rem;
     }
+    .navbar-logo{
+    width: 3rem;
+    height: 3rem;
+    float: left;
+}
+    .Topo{
+    padding: 0 2rem;
+}
     .hero{
         width: 100%;
 }
@@ -232,10 +336,10 @@ button:hover {
         padding: 2rem 2rem;
     }
     .contaner{
-        width: 80%;
+        width: 100%;
     }
     .skills{
-        width: 80%;
+        width: 100%;
     }
     .column{
         float: left;
@@ -245,6 +349,7 @@ button:hover {
     }
     .portfolio{
         height: 100%;
+        padding: 2rem;
     }
     
     .projects-grid{
@@ -254,5 +359,8 @@ button:hover {
     .column-grid{
         width: 100%;
     }
+    .section{
+    padding: 2rem 2rem;
+}
     
 }
