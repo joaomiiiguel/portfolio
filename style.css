@@ -168,7 +168,7 @@ button:hover {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #4233AD;
+    background-color: #333;
     border-radius: 20px;
 }
 
@@ -203,7 +203,7 @@ button:hover {
 }
 .button-portfolio:hover{
     background-color: #fff;
-    color: #4233AD;
+    color: #333;
 }
 .section{
     background-color: #4233AD;
