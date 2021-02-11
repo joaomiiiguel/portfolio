@@ -57,7 +57,6 @@ button{
     cursor: pointer;
     border-radius: 18px;
     padding: 0.6rem 1.5rem;
-    float: right;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -101,7 +100,18 @@ button:hover {
     width: 100%;
 }
 
-
+.icon-mobile, .icon-fontend{
+    padding: 20px 20px;
+    width: 150px;
+}
+.projects{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    flex-direction: space-between;
+    margin-bottom: 5%; 
+    margin-top: 2%;
+}
 .bio{
     background-color: #4233AD;
     width: 100%;
@@ -109,6 +119,12 @@ button:hover {
     color: #fff;
     margin: 0 auto;
     padding: 2rem 0;
+}
+.low{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 .contaner{
     padding-top: 3rem;
@@ -151,12 +167,10 @@ button:hover {
 
 .projects-grid{
     width: 60%;
-    margin: 0 auto;
-    padding: 3rem;
+    margin: 0 20%;
 }
 .column-grid{
     width: 48%;
-    float: left;
     padding: 0;
     position:relative;
     margin-right: 0.5rem;
@@ -321,14 +335,13 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-.icon-mobile {
-    width: 20%;
-}
 
 .navbar-logo-white{
     height: 8vh;
 }
-
+.list-projects{
+    display: flex;flex-direction: row;justify-content: space-between;align-items: center;
+}
 
 @media screen and (max-width:620px){
     h1{
@@ -370,14 +383,17 @@ input[type=submit]:hover {
     }
     
     .projects-grid{
-        width: 80%;
-        padding: 0;
+        width: 100%;
+        margin: 0;
     }
     .column-grid{
         width: 100%;
     }
     .section{
     padding: 2rem 2rem;
+}
+.list-projects{
+    flex-direction: column;
 }
     
 }
