@@ -4,9 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link';
 import { Raleway } from 'next/font/google'
 
-import { database } from './api/firebase'
-import { getDatabase, ref, onValue } from "firebase/database";
-
 import { MdFileDownload, MdMail } from 'react-icons/md';
 import { BsLinkedin, BsInstagram, BsWhatsapp } from 'react-icons/bs';
 
@@ -14,27 +11,13 @@ import ButtonComp from '@/components/ButtonComp'
 import Card from '@/components/Card';
 
 import Perfil from '../../public/miguelPerfil.webp'
-import loadingImage from '../../public/loader.gif'
+import Capa1 from '../assets/CapaWeb1.png'
+import Capa2 from '../assets/capaMb.png'
+import Capa3 from '../assets/CapaWeb2.png'
 
 const raleway = Raleway({ subsets: ['latin'] })
 
 export default function Home() {
-  const [projects, setProjects] = useState([])
-  const [loading, setLoading] = useState(true)
-
-  async function loadAllProjects() {
-    const db = await getDatabase(database);
-    const starRef = await ref(db, 'jobs/')
-    onValue(starRef, (snapshot) => {
-      const data = snapshot.val();
-      setProjects(data);
-      setLoading(false)
-    })
-  }
-
-  useEffect(() => {
-    loadAllProjects()
-  }, [loading])
 
   return (
     <>
@@ -70,18 +53,18 @@ export default function Home() {
         </div>
         <div className='flex flex-col justify-center w-[90%] md:w-5/6 lg:w-4/6 my-10 mx-auto'>
           <p className='text-seconday text-2xl font-normal tracking-widest my-4 mb-10 text-center'>PROJETOS</p>
-          {loading ?
-            <div className='flex items-center justify-center'>
-              <Image src={loadingImage} alt="Loading image" className='mix-blend-hard-light	' />
-            </div>
-            :
+        
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 '>
-              {projects.map((item, index) =>
-                <Card key={index} titleCard={item.title} imgCard={item.imgCard} router={item.router} type={item.type} dataDetails={item} />
-              )}
-            </div>
+              <Card titleCard={'aventurei'} imgCard={Capa1} router={'aventurei'} type={'Web'}/>
+              <Card titleCard={'lott games'} imgCard={Capa2} router={'lott_games'} type={'Mobile'}/>
+              <Card titleCard={'Farm maps'} imgCard={Capa3} router={'farm_maps'} type={'Web'}/>
+              <Card titleCard={'Reddit'} imgCard={Capa2} router={'aventurei'} type={'Mobile'}/>
+              <Card titleCard={'1xpix'} imgCard={Capa1} router={'aventurei'} type={'Web'}/>
 
-          }
+              <Card titleCard={'Pokemon'} imgCard={Capa1} router={'aventurei'} type={'Mobile'}/>
+              <Card titleCard={'Jorney 360'} imgCard={Capa1} router={'aventurei'} type={'Web'}/>
+              <Card titleCard={'Movies App'} imgCard={Capa1} router={'aventurei'} type={'Mobile'}/>
+            </div>
         </div>
       </main>
     </>
