@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>João Miguel - Portfólio</title>
+        <title>João Miguel - Portfólio - Front-end Developer</title>
         <meta name="description" content="Desde 2018 criando ideias e desenvolvendo soluções em React e React Native, usando criatividade e conhecimento técnico para criar aplicações." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
