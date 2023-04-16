@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { BsArrowLeftShort } from "react-icons/bs";
+import { BsArrowLeftShort, BsGithub } from "react-icons/bs";
 
 import Head from 'next/head'
 import Link from 'next/link'
@@ -28,10 +28,11 @@ export default function Farm_Maps() {
                     <div className='flex flex-row justify-center'>
                         <p className='text-gray-light bg-primary-light mr-2 px-4 py-2 text-sm rounded-full'>React Native</p>
                         <p className='text-gray-light bg-primary-light mr-2 px-4 py-2 text-sm rounded-full'>Leaflet Maps</p>
+                        <p className='text-gray-light bg-primary-light mr-2 px-4 py-2 text-sm rounded-full'>ContextAPI</p>
                         <p className='text-gray-light bg-primary-light mr-2 px-4 py-2 text-sm rounded-full'>Expo</p>
                     </div>
-                    <Link href={'https://github.com/joaomiiiguel/FarmTest'} target="_blank" className='bg-seconday rounded-full'>
-                        <p className='text-primary py-2 px-4 uppercase text-xs font-semibold'>link do projeto</p>
+                    <Link href={'https://github.com/joaomiiiguel/FarmTest'} target="_blank" className='bg-seconday rounded-full flex flex-row items-center px-6'>
+                        <p className='text-primary py-2 px-4 uppercase text-xs font-semibold'>link do projeto</p><BsGithub className='text-primary' size={18} />
                     </Link>
 
                     <Image src={Image1} height={400} width={600} className='w-full h-full transition-opacity delay-300n ease-in-out rounded-2xl' alt="" />

@@ -35,9 +35,9 @@ export default function Aventurei() {
                         <p className='text-primary py-2 px-4 uppercase text-xs font-semibold'>link do projeto</p>
                     </Link>
 
-                    <Image src={Image1} height={200} width={200} className='w-full h-full transition-opacity delay-300n ease-in-out rounded-2xl' alt="" />
-                    <Image src={Image2} height={200} width={200} className='w-full h-full transition-opacity delay-300n ease-in-out rounded-2xl' alt="" />
-                    <Image src={Image3} height={200} width={200} className='w-full h-full transition-opacity delay-300n ease-in-out rounded-2xl' alt="" />
+                    <Image src={Image1} height={400} width={600} className='w-full h-full transition-opacity delay-300n ease-in-out rounded-2xl' alt="" />
+                    <Image src={Image2} height={400} width={600} className='w-full h-full transition-opacity delay-300n ease-in-out rounded-2xl' alt="" />
+                    <Image src={Image3} height={400} width={600} className='w-full h-full transition-opacity delay-300n ease-in-out rounded-2xl' alt="" />
                 </div>
             </div>
         </>
