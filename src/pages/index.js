@@ -68,7 +68,7 @@ export default function Home() {
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 '>
               <Card titleCard={'aventurei'} imgCard={Capa1} router={'aventurei'} type={'Web'}/>
               <Card titleCard={'lott games'} imgCard={Capa2} router={'lott_games'} type={'Mobile'}/>
-              <Card titleCard={'1xpix'} imgCard={Capa4} router={'1xpix'} type={'Web'}/>
+              {/* <Card titleCard={'1xpix'} imgCard={Capa4} router={'1xpix'} type={'Web'}/> */}
               <Card titleCard={'Movies App'} imgCard={Capa6} router={'movies'} type={'Mobile'}/>
               <Card titleCard={'Farm maps'} imgCard={Capa3} router={'farm_maps'} type={'Web'}/>
               <Card titleCard={'Reddit'} imgCard={Capa5} router={'reddit'} type={'Mobile'}/>
