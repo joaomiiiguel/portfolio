@@ -20,7 +20,7 @@ export default function OneXpix() {
                 <Link href={'/'} className='bg-seconday rounded-full w-fit hover:opacity-50'>
                     <BsArrowLeftShort className='text-primary' size={30} />
                 </Link>
-                <div className='flex flex-col w-6/6 md:w-4/6 pt-20 mx-auto justify-center items-center space-y-6'>
+                {/* <div className='flex flex-col w-6/6 md:w-4/6 pt-20 mx-auto justify-center items-center space-y-6'>
                     <p className='text-seconday text-2xl font-normal tracking-widest text-center uppercase'>1xpix</p>
                     <p className='text-gray-light'>
                     A 1xpix é um projeto criado pela empresa Pixbet com o intuito de modernizar o seu sistema de gestão de apostas esportivas. A proposta do produto é oferecer uma plataforma mais ágil, confiável e segura para os clientes da empresa, permitindo que os usuários possam realizar suas apostas com maior facilidade e eficiência.
@@ -42,7 +42,7 @@ export default function OneXpix() {
                     <Image src={Image1} height={400} width={600} className='w-full h-full transition-opacity delay-300n ease-in-out rounded-2xl' alt="" />
                     <Image src={Image2} height={400} width={600} className='w-full h-full transition-opacity delay-300n ease-in-out rounded-2xl' alt="" />
                     <Image src={Image3} height={400} width={600} className='w-full h-full transition-opacity delay-300n ease-in-out rounded-2xl' alt="" />
-                </div>
+                </div> */}
             </div>
         </>
     )
