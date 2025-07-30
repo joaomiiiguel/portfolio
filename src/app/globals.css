@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600;700&display=swap");
 
 * {
   font-family: 'Raleway', sans-serif;

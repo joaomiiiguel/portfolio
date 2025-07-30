@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "btnLink": "Enlace del Proyecto",
+    "home": {
+      "title": "DESARROLLADOR",
+      "description": "Soy DESARROLLADOR FRONTEND desde 2019, con experiencia sólida en React.js, Next.js, Vue.js, React Native y SwiftUI. En los últimos 2 años, he trabajado como DESARROLLADOR FULLSTACK en Inspell, participando activamente en el desarrollo de una aplicación web robusta utilizando Next.js en el front-end y NestJS en el back-end, en un sistema corporativo complejo de gestión de horarios con integración a dispositivos biométricos. He trabajado en proyectos de gran envergadura, como el sitio de apuestas Pixbet, la aplicación del Banco do Brasil y soluciones innovadoras con Realidad Aumentada y Realidad Virtual.",
+      "btnCurriculum": "Currículum",
+      "btnContact": "Contacto",
+      "titleProjects": "PROYECTOS"
+    },
+    "ecoroteiros": {
+      "title": "EcoRoteiros",
+      "description": "Es una plataforma digital que desarrollé con el objetivo de conectar a los viajeros con experiencias auténticas de ecoturismo en Brasil. El proyecto nació con la idea de valorar la naturaleza, fomentar el turismo sostenible y promover la cultura local a través de rutas que incentivan la conciencia ambiental. <br/><br/>La plataforma ofrece una interfaz intuitiva donde los usuarios pueden explorar actividades al aire libre filtradas por estado, tipo de aventura (como senderos, cascadas, paseos en kayak, entre otros) y preferencias personales. Además, cuenta con perfiles de guías especializados, lo que permite a los viajeros conocer sus servicios con antelación y contratarlos directamente desde la plataforma. <br/><br/>Desde el punto de vista técnico, el proyecto incluye funcionalidades robustas, como: <br/><br/>• Panel administrativo para que los guías gestionen sus rutas, calendarios e información de contacto;<br/>• Página comercial con información detallada sobre las actividades ofrecidas;<br/>• Sistema de registro e inicio de sesión con control de permisos;<br/>• Planeación de lanzamiento en versión Beta con usuarios invitados, con el fin de validar la propuesta y realizar ajustes en base a los comentarios reales.<br/><br/> EcoRoteiros refleja mi preocupación por el impacto social y ambiental de las soluciones que desarrollo, uniendo tecnología, diseño y propósito en una experiencia transformadora para quienes buscan reconectarse con la naturaleza."
+    },
+    "bancoBrasil": {
+      "title": "Banco do Brasil",
+      "description": "Trabajé como desarrollador iOS en el proyecto de la aplicación oficial del Banco do Brasil, colaborando directamente con el equipo responsable de evolucionar y mantener una de las plataformas bancarias más utilizadas del país. Mi trabajo se centró en el desarrollo de interfaces modernas, interactivas y accesibles utilizando SwiftUI, el framework declarativo de Apple para construir interfaces reactivas. <br /><br />Creación de interfaces dinámicas con SwiftUI: desarrollé diversas pantallas de la app utilizando componentes como NavigationStack, TabView, Form, List, LazyVStack, ScrollView, entre otros. Las pantallas fueron estructuradas bajo el modelo MVVM (Model-View-ViewModel), asegurando la separación de responsabilidades y la facilidad de prueba. Integración con APIs REST: trabajé con la capa de red usando URLSession combinada con Combine, implementando llamadas asíncronas, manejo de errores y actualización automática de las vistas."
+    },
+    "farmMaps": {
+      "title": "Farm Maps (2023)",
+      "description": "Esta aplicación fue creada con fines educativos utilizando la biblioteca React.js junto con Leaflet Maps para mostrar un polígono georreferenciado, proporcionado en formato GeoJSON, que representa una determinada área rural. Además, la aplicación tiene funcionalidades para gestionar puntos de recolección georreferenciados, que pueden ser representados por marcadores en el mapa. Así, el productor tiene la posibilidad de insertar nuevos puntos, así como mover o eliminar puntos existentes, de acuerdo a sus necesidades."
+    },
+    "lottGames": {
+      "title": "Lott Games (2023)",
+      "description": "La aplicación desarrollada es una plataforma de mini juegos que utiliza las tecnologías React Native y Firebase, permitiendo a los usuarios navegar por juegos y jugarlos en diferentes idiomas con el sistema de traducción i18n. La aplicación también ofrece funciones como autenticación de usuarios y notificaciones push para mejorar la experiencia del usuario. <br/><br/> Utilicé las funcionalidades de React Native para crear una interfaz de usuario responsiva e intuitiva, permitiendo que los usuarios naveguen entre los juegos y seleccionen los que desean jugar. Además, implementé características como autenticación de usuarios y notificaciones push para mejorar la experiencia del usuario. <br/><br/> Para almacenar y gestionar los datos de la aplicación, utilicé el sistema de gestión Firebase, que permite un almacenamiento seguro y sincronización en tiempo real de los datos entre diferentes dispositivos. También utilicé funciones de Firebase, como autenticación de usuarios y análisis de datos, para mejorar la seguridad y eficiencia de la aplicación."
+    },
+    "movies": {
+      "title": "Movies App (2021)",
+      "description": "Esta aplicación fue desarrollada utilizando React Native con integración a la API de The Movie DB. Al abrir la aplicación, el usuario se encuentra con la pantalla de inicio que presenta la lista de películas más populares de la semana, destacando el primer lugar. El usuario puede ver fácilmente la lista y elegir una película para ver. <br/><br/>Además, hay una barra de búsqueda que permite al usuario buscar cualquier película por su nombre, incluso si no está en la lista de tendencias. Esto proporciona mayor flexibilidad y diversidad en la elección de películas, permitiendo al usuario encontrar películas específicas según sus preferencias. <br/><br/>Al seleccionar una película, el usuario es redirigido a la pantalla de detalles, que muestra información detallada sobre la película, como sinopsis, elenco, clasificación por edades, género, entre otros. Además, la pantalla de detalles presenta una lista de tendencias de otras películas, permitiendo al usuario explorar títulos relacionados y descubrir nuevas opciones para ver."
+    },
+    "reddit": {
+      "title": "Reddit (2023)",
+      "description": "La aplicación fue desarrollada con fines educativos. Para ello, se utilizó React Native, un framework muy popular para el desarrollo de aplicaciones móviles. La aplicación se conecta con la API de Reddit, lo que permite al usuario acceder y visualizar contenido disponible en esta plataforma de red social. A través de esta conexión, es posible buscar publicaciones, comentarios y otra información disponible en Reddit. <br/><br/>Para la navegación entre pantallas, se utilizó React Navigation, un paquete que ofrece diversas opciones y recursos para crear un flujo de navegación fluido e intuitivo."
+    }
+  }
+}

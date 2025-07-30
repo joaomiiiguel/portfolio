@@ -1,0 +1,36 @@
+{
+  "pages": {
+    "btnLink": "Project Link",
+    "home": {
+      "title": "DEVELOPER",
+      "description": "I have been working as a FRONTEND DEVELOPER since 2019, with solid experience in React.js, Next.js, Vue.js, React Native, and SwiftUI. For the past 2 years, I’ve been working as a FULLSTACK DEVELOPER at Inspell, actively contributing to the development of a robust web application using Next.js on the front-end and NestJS on the back-end, in a complex corporate system for time tracking management integrated with biometric devices. I have contributed to large-scale projects such as the Pixbet betting site, the Banco do Brasil app, and innovative solutions involving Augmented and Virtual Reality.",
+      "btnCurriculum": "Resume",
+      "btnContact": "Contact",
+      "titleProjects": "PROJECTS"
+    },
+    "ecoroteiros": {
+      "title": "EcoRoteiros",
+      "description": "EcoRoteiros is a digital platform I developed to connect travelers with authentic ecotourism experiences in Brazil. The project was born from the idea of valuing nature, promoting sustainable tourism, and showcasing local culture through routes that encourage environmental awareness. <br/><br/>The platform offers an intuitive interface where users can explore outdoor activities filtered by state, type of adventure (such as hiking, waterfalls, kayaking, among others), and personal preferences. It also features specialized guide profiles, allowing travelers to learn about their services in advance and book directly through the platform. <br/><br/>From a technical perspective, the project includes robust features such as: <br/><br/>• An admin panel for guides to manage their tours, calendars, and contact information; <br/>• A commercial page with detailed information about the available activities; <br/>• A registration and login system with permission control; <br/>• A Beta launch plan with invited users to validate the proposal and make improvements based on real feedback. <br/><br/>EcoRoteiros reflects my concern for the social and environmental impact of the solutions I develop, combining technology, design, and purpose in a transformative experience for those seeking to reconnect with nature."
+    },
+    "bancoBrasil": {
+      "title": "Banco do Brasil",
+      "description": "I worked as an iOS developer on the official Banco do Brasil app project, collaborating directly with the team responsible for evolving and maintaining one of the most used banking platforms in the country. My work focused on developing modern, interactive, and accessible interfaces using SwiftUI, Apple's declarative framework for building reactive UIs. <br /><br />Dynamic interface creation with SwiftUI: I developed several app screens using components like NavigationStack, TabView, Form, List, LazyVStack, ScrollView, among others. The screens were structured based on MVVM (Model-View-ViewModel), ensuring separation of concerns and testability. REST API integration: I worked with the networking layer using URLSession combined with Combine, implementing asynchronous calls, error handling, and automatic view updates."
+    },
+    "farmMaps": {
+      "title": "Farm Maps (2023)",
+      "description": "This application was created for educational purposes using the React.js library together with Leaflet Maps to display a georeferenced polygon provided in GeoJSON format, representing a specific rural area. Additionally, the app includes features to manage georeferenced collection points, which can be represented by markers on the map. With this, the farmer can add new points as well as move or delete existing ones according to their needs."
+    },
+    "lottGames": {
+      "title": "Lott Games (2023)",
+      "description": "This app is a mini games platform built with React Native and Firebase, allowing users to browse and play games in multiple languages using the i18n translation system. It also includes features such as user authentication and push notifications to enhance the user experience. <br/><br/>I used React Native’s capabilities to create a responsive and intuitive UI, enabling users to browse and select games. Additionally, I implemented features like authentication and push notifications to improve engagement. <br/><br/>To store and manage app data, I used Firebase, which provides secure storage and real-time synchronization across devices. Firebase features like user authentication and analytics were also utilized to enhance app security and performance."
+    },
+    "movies": {
+      "title": "Movies App (2021)",
+      "description": "This app was built using React Native with integration to The Movie DB API. Upon launch, the user is greeted with a homepage showing the top trending movies of the week, highlighting the number one movie. Users can easily view the list and select a movie to watch. <br/><br/>Additionally, a search bar allows users to look up any movie by name, even if it’s not in the trending list. This provides more flexibility and diversity in movie selection, helping users find specific titles they’re interested in. <br/><br/>When selecting a movie, users are taken to a detail screen displaying in-depth information like synopsis, cast, age rating, genre, and more. The detail screen also shows other trending movies, helping users explore related titles and discover new ones."
+    },
+    "reddit": {
+      "title": "Reddit (2023)",
+      "description": "This app was developed for educational purposes. It was built using React Native, a popular framework for mobile app development, and connects to Reddit’s API, allowing users to access and view content from the Reddit platform. Through this integration, users can search for posts, comments, and other publicly available Reddit data. <br/><br/>For navigation, the app uses React Navigation, a library that offers various tools and options to create a smooth and intuitive screen-to-screen flow."
+    }
+  }
+}
